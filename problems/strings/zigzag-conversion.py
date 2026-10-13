@@ -21,4 +21,4 @@ def convert_zigzag(s: str, num_rows: int) -> str:
 
 assert convert_zigzag("PAYPALISHIRING", 3) == "PAHNAPLSIIGYIR"
 assert convert_zigzag("PAYPALISHIRING", 4) == "PINALSIGYAHRPI"
-assert convert_zigzag("A", 1) == "A
+assert convert_zigzag("A", 1) == "A"
