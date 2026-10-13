@@ -23,4 +23,4 @@ def multiply(num1: str, num2: str) -> str:
 
 assert multiply("2", "3") == "6"
 assert multiply("123", "456") == "56088"
-assert multiply("0", "52") == "0
+assert multiply("0", "52") == "0"
