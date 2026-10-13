@@ -17,4 +17,4 @@ def top_k_frequent_words(words: list[str], k: int) -> list[str]:
     return sorted(counts, key=lambda word: (-counts[word], word))[:k]
 
 assert top_k_frequent_words(["i","love","leetcode","i","love","coding"], 2) == ["i", "love"]
-assert top_k_frequent_words(["the","day","is"," sunny","the","the","the","sunny","is","is"], 4) == ["the", "is", "sunny", "day"]
+assert top_k_frequent_words(["the","day","is","sunny","the","the","the","sunny","is","is"], 4) == ["the", "is", "sunny", "day"]
