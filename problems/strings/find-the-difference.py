@@ -16,4 +16,4 @@ def find_the_difference(s: str, t: str) -> str:
     return chr(result)
 
 assert find_the_difference("abcd", "abcde") == "e"
-assert find_the_difference("", "y") == "y
+assert find_the_difference("", "y") == "y"
