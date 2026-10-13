@@ -22,4 +22,4 @@ def remove_kdigits(num: str, k: int) -> str:
 
 assert remove_kdigits("1432219", 3) == "1219"
 assert remove_kdigits("10200", 1) == "200"
-assert remove_kdigits("10", 2) == "0
+assert remove_kdigits("10", 2) == "0"
