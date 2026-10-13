@@ -33,4 +33,4 @@ def fraction_to_decimal(numerator: int, denominator: int) -> str:
 
 assert fraction_to_decimal(1, 2) == "0.5"
 assert fraction_to_decimal(2, 3) == "0.(6)"
-assert fraction_to_decimal(4, 333) == "0.(012)
+assert fraction_to_decimal(4, 333) == "0.(012)"
