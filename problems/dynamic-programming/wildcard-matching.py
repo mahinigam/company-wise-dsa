@@ -23,7 +23,7 @@ def is_match_wildcard(s: str, p: str) -> bool:
     while j < len(p) and p[j] == "*": j += 1
     return j == len(p)
 
-assert is_match_wildcard("aa", "a")
+assert not is_match_wildcard("aa", "a")
 assert is_match_wildcard("aa", "*")
 assert is_match_wildcard("cb", "?a") is False
 assert is_match_wildcard("adceb", "*a*b")
