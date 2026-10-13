@@ -27,5 +27,5 @@ def pacific_atlantic(heights: list[list[int]]) -> list[list[int]]:
     atlantic = [(r, cols - 1) for r in range(rows)] + [(rows - 1, c) for c in range(cols)]
     return [list(cell) for cell in sorted(reachable(pacific) & reachable(atlantic))]
 
-assert set(map(tuple, pacific_atlantic([[1,2,2,3,5],[3,2,3,4,4],[2,4,5,3,1],[6,7,1,4,5],[5,1,1,2,4]])) >= {(0,4),(4,0),(3,0)}
+assert {(0,4), (4,0), (3,0)} <= set(map(tuple, pacific_atlantic([[1,2,2,3,5],[3,2,3,4,4],[2,4,5,3,1],[6,7,1,4,5],[5,1,1,2,4]])))
 assert pacific_atlantic([]) == []
