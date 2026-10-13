@@ -20,4 +20,4 @@ def int_to_roman(num: int) -> str:
 
 assert int_to_roman(3) == "III"
 assert int_to_roman(58) == "LVIII"
-assert int_to_roman(1994) == "MCMXCIV
+assert int_to_roman(1994) == "MCMXCIV"
