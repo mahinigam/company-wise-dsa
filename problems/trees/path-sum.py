@@ -22,5 +22,5 @@ def has_path_sum(root: TreeNode | None, target_sum: int) -> bool:
 
 root = TreeNode(5, TreeNode(4, TreeNode(11, TreeNode(7), TreeNode(2))), TreeNode(8, TreeNode(13), TreeNode(4, None, TreeNode(1))))
 assert has_path_sum(root, 22)
-assert not has_path_sum(root, 27)
+assert not has_path_sum(root, 28)
 assert not has_path_sum(None, 0)
