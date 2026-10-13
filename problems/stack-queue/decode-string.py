@@ -23,4 +23,4 @@ def decode_string(s: str) -> str:
 
 assert decode_string("3[a]2[bc]") == "aaabcbc"
 assert decode_string("3[a2[c]]") == "accaccacc"
-assert decode_string("2[abc]3[cd]ef") == "abcabccdcdcdef
+assert decode_string("2[abc]3[cd]ef") == "abcabccdcdcdef"
